@@ -1,5 +1,6 @@
-import { mount } from '@vue/test-utils'
+
 import AppHeader from '@/components/AppHeader.vue'
+import { mount } from '@vue/test-utils'
 
 describe('AppHeader', () => {
     test('if user is not logged in, do not show logout button', () => {

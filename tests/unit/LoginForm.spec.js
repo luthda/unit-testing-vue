@@ -16,7 +16,6 @@ describe('LoginForm', () => {
     // 4. Assert event has been emitted
     const formSubmittedCalls = wrapper.emitted('formSubmitted')
     expect(formSubmittedCalls).toHaveLength(1)
-    console.log(wrapper.emitted('formSubmitted'))
     
     // 5. Assert payload is correct
     const expectedPayload = { name: 'David Luthiger' }
